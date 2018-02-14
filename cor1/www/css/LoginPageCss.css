@@ -1,0 +1,132 @@
+﻿html, body, div, span, applet, object, iframe,kkkkkklhb
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    height: 100%;
+    margin-bottom: 0;
+}
+
+body {
+    text-align: left;
+    height: 100%;
+    margin-bottom: 0;
+    font-family: Arial;
+    direction: rtl;
+}
+
+div.home {
+    background-image: url(../images/bg.jpg);
+    text-align: center;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flow-root;
+}
+
+table {
+    text-align: center;
+    width: 90%;
+    margin-top: 10%;
+}
+
+.login {
+    margin-top: 20%;
+    margin-right: 17%;
+}
+
+.home input[type=text], input[type=password] {
+    display: block;
+    padding: 5% 0;
+    border: 2px solid #f68d22;
+    border-radius: 15px;
+    margin-top: 5%;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+#LPBtnCheckUserNamePass {
+    width: 90%;
+    display: block;
+    text-decoration: none;
+    padding: 5%;
+    font-size: 18px;
+    background-color: #f68d22;
+    color: white;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+
+.guest1 {
+    width: 40%;
+    padding: 5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100%;
+    background-color: #0f405e;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.guest2 {
+    width: 40%;
+    padding: 5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100%;
+    background-color: #0f405e;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.sign {
+    padding-top: 30%;
+    background-color: #0f405e;
+    height: 100vh;
+}
+
+#forgetPassword {
+    font-weight: bold;
+    text-decoration: none;
+    right: 1%;
+    bottom: 1%;
+    position: fixed;
+}
+
+#foundus {
+    bottom: 0;
+    left: 0;
+    height: 8%;
+    width: 30%;
+    position: fixed;
+}
+
+#wait {
+    display: none;
+    top: 35%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+    #wait img {
+        position: fixed;
+        right: 20%;
+    }

@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <script src="Libraries/jquery-3.1.1.min.js"></script>
+    <link href="css/Globals.css" rel="stylesheet" />
+    <link href="css/settingsCSS.css" rel="stylesheet" />
+    <script src="cordova.js"></script>
+    <script src="scripts/settingsPage.js"></script>
+</head>
+<body>
+    <div class=".settings">
+
+        <div class="category">
+            <div id="accountSettings">פרטי חשבון</div>
+            <div id="applicationSettings">הגדרות מערכת</div>
+        </div>
+
+        <div class="deatilsToEdit">
+            <div class="accountSettings">
+                <img src="images/add_pic.png" id="profileImage" />
+                <input id="username" type="text" placeholder="שם משתמש" />
+                <input id="fullname" type="text" placeholder="שם מלא" />
+                <input id="birthday" type="date" placeholder="תאריך לידה" />
+                <div id="saveBTN">שמור</div>
+            </div>
+            <div class="systemSettings">
+                <div class="radius">
+                    <p>איזור סכנה במטרים</p>
+                    <select id="radiusInMap">
+                        <option value="100">100</option>
+                        <option value="250">250</option>
+                        <option value="500">500</option>
+                        <option value="1000">1000</option>
+                    </select>
+                </div>
+                <div class="mapInterval">
+                    <p>זמן עדכון מפה בשניות</p>
+                    <select id="radiusInMap">
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                    </select>
+                </div>
+                <div class="notifactions">
+                    <p>התראות</p>
+                    <select id="notifactions">
+                        <option value="send">שלח</option>
+                        <option value="dontsend">אל תשלח</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="messages">
+        <img src="images/close.png" class="backButton" />
+        <p>This is message box !</p>
+    </div>
+    <script src="scripts/Globals.js"></script>
+
+</body>
+</html>

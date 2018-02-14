@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <script src="Libraries/jquery-3.1.1.min.js"></script>
+    <script src="Libraries/jquery-migrate-3.0.0.min.js"></script>
+    <script src="Libraries/jquery.mobile-1.4.5.min.js"></script>
+    <link href="css/Globals.css" rel="stylesheet" />
+    <link href="css/mainStyle.css" rel="stylesheet" />
+    <script src="cordova.js"></script>
+</head>
+
+<body scroll="no" style="overflow: hidden">
+
+    <div class="main" data-role="page" id="mainPage">
+
+        <div id="map" style="border:1px solid orange; top:0; left:0; position:fixed; width:100%; height:98vh;">
+
+        </div>
+
+        <div class="topbar">
+            <img src="images/user.svg" id="profileImage" />
+
+        </div>
+
+        <div class="bar">
+            <img src="images/bar.png" />
+            <a target="_self" href="NewsPage.html" class="news">חדשות</a>
+            <a target="_self" href="MessagePage.html" class="mail">הודעות</a>
+            <img id="alertBtn" src="images/botton.png">
+        </div>
+
+        <div>
+            <img id="showMe" src="images/where.png" />
+        </div>
+
+        <div>
+            <img id="info" src="images/info.png" />
+        </div>
+
+    </div>
+
+    <!--end of basic page design-->
+
+    <div data-role="page" class="dlg">
+        <img src="images/backbtn.png" class="backButton" />
+        <div style="height:90%; width:90%; position:absolute; top:5%; right:5%;">
+            <center>
+                <div style="width:70%;">
+                    <img id="hazardImage" src="images/photo-camera.svg" />
+                </div>
+            </center>
+            <center>
+                <input type="text" id="harazdDateTimeTXT" readonly />
+                <br />
+                <input type="text" id="hazardLocationTXT" readonly />
+                <br />
+                <select id="streetSelector"></select>
+                <br />
+                <textarea id="hazardDescription"></textarea>
+                <br />
+                <input type="button" id="addHazard" value="שלח דיווח" />
+            </center>
+        </div>
+    </div>
+
+    <!--end of alert hazard dlg-->
+
+    <div class="hazardInfo">
+        <p id="hazardID"></p>
+        <p id="hazardUploader"></p>
+        <img src="images/backbtn.png" class="backButton" /><br>
+        <p id="pDate" style="font-size:18px; margin-top:11%; margin-left: 60%;"></p><br>
+        <img src="images/156.jpg" id="hazardImgInfo" style="height: 40%; width: 90%; border-radius:15px;"><br>
+        <p id="pDes" style="font-size:17px; margin-top:4%; margin-right:4%; width:90%;"></p><br>
+        <div id="thumbsUp">הוסף לרשימה</div>
+    </div>
+
+    <!--end of hazard info dialog-->
+
+    <div class="messages">
+        <img src="images/close.png" class="backButton" />
+        <p>This is message box !</p>
+    </div>
+
+    <!--end of message dialog-->
+
+    <div class="search">
+        <img src="images/backbtn.png" class="backButton" />
+    </div>
+
+    <!--end of search dialog-->
+
+    <div class="status">
+
+    </div>
+
+    <!--end of status dialog-->
+
+    <div class="fullImage">
+        <img src="images/backbtn.png" class="backButton" />
+        <img class="fullImageInBox" src="" alt="image" />
+        <img class="ROR" src="images/ROR.png" alt="image" />
+        <img class="ROL" src="images/ROL.png" alt="image" />
+        <img class="OK" src="images/OK.png" alt="image" />
+    </div>
+
+    <!--end of image viewer-->
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuiNlzqlJtGnwi6xj685rMKwaJDy_J75s&libraries=geometry&sensor=false"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <script src="scripts/Globals.js"></script>
+    <script src="scripts/MainPage.js"></script>
+
+</body>
+
+</html>

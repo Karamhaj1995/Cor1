@@ -1,0 +1,6 @@
+{
+  "name": "cor1",
+  "dependencies": {
+    "phonegap-facebook-plugin": "v0.12.0"
+  }
+}

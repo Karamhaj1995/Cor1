@@ -1,0 +1,87 @@
+﻿<html>
+<head>
+    <title>City All Register</title>
+    <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+    <script src="Libraries/jquery-3.1.1.min.js"></script>
+    <link href="css/signStyle.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="sign" data-role="page">
+        <div class="deatils">
+            <img id="addProfilePicture" src="images/home-user.png" />
+            <input type="text" maxlength="20" id="RPUsernameTXT" placeholder="שם משתמש">
+            <input type="text" id="RPUserfullnameTXT" placeholder="שם מלא">
+            <input type="date" id="RPUserDateTXT" placeholder="תאריך לידה" max="1998-12-31">
+            <input type="password" id="RPUserPassTXT" placeholder="סיסמה">
+            <input type="password" id="RPUserRePassTXT" placeholder="אימות סיסמה">
+            <button href="#" id="RegisterBTN">שלח</button>
+        </div>
+        <!--
+        <fb:login-button scope="public_profile,email"
+                         onlogin="checkLoginState();"
+                         id="loginWithFacebook">
+        </fb:login-button>
+        -->
+    </div>
+
+    <div id="wait">
+        <img src="images/gears.gif" />
+    </div>
+
+    <div class="messages">
+        <p>This is message box !</p>
+    </div>
+
+    <div class="LoginWays">
+        <img src="images/backbtn.png" class="backButton" />
+        <img src="images/Loginwithfacebook.png" id="Loginwithfacebook" />
+    </div>
+
+    <script>
+        /*
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '234112013795743',
+                cookie: true,
+                xfbml: true,
+                version: 'v2.11'
+            });
+            FB.getLoginStatus(function (response) {
+                statusChangeCallback(response);
+            });
+        };
+
+        function checkLoginState() {
+            FB.getLoginStatus(function (response) {
+                statusChangeCallback(response);
+            });
+        }
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        function statusChangeCallback(response) {
+            if (response.status === 'connected') {
+                FB.api('/me', 'get', {fields:'first_name,last_name,name,picture.width(150).heigth(150)'},function (response) {
+                    $("#RPUserfullnameTXT").val(response.name);
+                    $("#addProfilePicture").attr("src", "" + response.picture.data.url);
+                });
+            }
+        }
+        */
+    </script>
+
+    <script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script>
+    <script src="cordova.js"></script>
+    <script src="scripts/signScript.js"></script>
+    <link href="css/Globals.css" rel="stylesheet" />
+    <script src="scripts/Globals.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    height: 100%;
+    margin-bottom: 0;
+}
+
+body {
+    text-align: right;
+    height: 100%;
+    margin-bottom: 0;
+    font-family: Rubik;
+    direction: rtl;
+    /*filter: blur(5px);*/
+}
+
+.menuo  {
+    top: 2%;
+    width: 15%;
+    right: 2%;
+    position: absolute;
+    border-radius: 20px;
+}
+
+div.menu {
+    width: 80%;
+    height: 80%;
+    background-color: #F5824F;
+    opacity: 0.95;
+    z-index: 2000;
+    position: fixed;
+    top: 2.5%;
+    right: 0;
+    text-align: center;
+    display: none;
+    border-radius: 20px;
+}
+
+    div.menu a {
+        display: block;
+        text-decoration: none;
+        color: #0f405e;
+        padding: 4%;
+        font-size: 20px;
+    }
+
+    div.menu hr {
+        width: 70%;
+        border: dashed 1px white;
+    }
+
+    div.menu .profile {
+        margin-top: 20%;
+        background-image: url(../images/user.svg);
+        background-repeat: no-repeat;
+        background-position: 85%;
+        background-color: #0f405e;
+        color: white;
+        padding: 6% 0;
+    }
+
+    div.menu img {
+        top: 2%;
+        width: 15%;
+        right: 2%;
+        position: fixed;
+        border-radius: 20px;
+    }
+
+.backBTN {
+    width: 15%;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}
+
+.backBTNToStart {
+    width: 15%;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}

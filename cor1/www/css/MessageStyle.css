@@ -1,0 +1,100 @@
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Assistant', sans-serif;
+}
+
+html {
+    height: 100%;
+    margin-bottom: 0px;
+    font-family: 'Assistant', sans-serif;
+}
+
+body {
+    text-align: right;
+    height: 100%;
+    margin-bottom: 0px;
+    font-family: Arial;
+    direction: rtl;
+    font-family: 'Assistant', sans-serif;
+    background-color: #fbf7f1;
+    color: #fbf7f1;
+}
+
+
+.messages {
+    background-color: beige;
+    text-align: center;
+    height: 100vh;
+}
+
+#mailCate {
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+#notCate {
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    right: 40%;
+}
+
+#cityhallCate {
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.contectMail {
+    background-color: antiquewhite;
+    position: fixed;
+    width: 90%;
+    height: 65%;
+    top: 30%;
+    right: 5%;
+    border-radius: 10px;
+    display: block;
+}
+
+.contectNot {
+    background-color: antiquewhite;
+    position: fixed;
+    width: 90%;
+    height: 65%;
+    top: 30%;
+    right: 5%;
+    border-radius: 10px;
+    display: none;
+}
+
+.contectCityhall {
+    background-color: antiquewhite;
+    position: fixed;
+    width: 90%;
+    height: 65%;
+    top: 30%;
+    right: 5%;
+    color: black;
+    border-radius: 10px;
+    font-style: italic;
+    display: none;
+    line-height: 160%;
+    font-size: 130%;
+}
+
+#cateName {
+    color: black;
+    display: inline-block;
+    margin-top: 5%;
+    font-size: 130%;
+}

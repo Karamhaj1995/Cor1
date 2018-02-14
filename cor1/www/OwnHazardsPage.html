@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>OwnHazards</title>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <script src="Libraries/jquery-3.1.1.min.js"></script>
+    <link href="css/Globals.css" rel="stylesheet" />
+    <link href="css/ownHazardsStyle.css" rel="stylesheet" />
+
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <script src="../Scripts/bootstrap.js"></script>
+
+    <script src="cordova.js"></script>
+    <script src="scripts/OwnHazards.js"></script>
+
+
+</head>
+<body>
+    <div class="ownHazards">
+
+        <p id="countParagraph"></p>
+
+        <a href="#countParagraph"><img src="images/arrup.png" id="goUP" /></a>
+        <a href="#last"><img src="images/arrdown.png" id="goDOWN" /></a>
+    </div>
+
+    <div class="messages">
+        <p>This is message box !</p>
+    </div>
+
+    <div class="fullImage">
+        <img src="images/backbtn.png" class="backButton" />
+        <img class="fullImageInBox" src="" alt="image" />
+        <img class="ROR" src="images/ROR.png" alt="image" />
+        <img class="ROL" src="images/ROL.png" alt="image" />
+    </div>
+
+    <div class="deleteConfirmation">
+        <p>האם ברצונך למחוק את המפגע ?</p>
+        <div class="yesDel">מחק</div>
+        <div class="noDel">ביטול</div>
+    </div>
+
+    <script src="scripts/Globals.js"></script>
+
+</body>
+</html>

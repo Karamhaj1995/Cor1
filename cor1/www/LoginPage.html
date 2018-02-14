@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <script src="Libraries/jquery-3.1.1.min.js"></script><!--include jquuery libary-->
+    <script src="Libraries/jquery-migrate-3.0.0.min.js"></script><!--include migrate jquery-->
+    <link href="css/LoginPageCss.css" rel="stylesheet" /><!--insert css page-->
+</head>
+<body>
+
+    <div class="home" data-role="page">
+        <div class="detail" data-role="content">
+            <center>
+                <img src="images/logo.png" style="margin-top:15%;">
+            </center>
+            <center>
+                <table>
+                    <tr>
+                        <th><input type="text" id="LPUserNameTXT" placeholder="שם משתמש"></th>
+                    </tr>
+                    <tr>
+                        <th><input type="password" id="LPUserPassTXT" placeholder="סיסמא"></th>
+                    </tr>
+                </table>
+            </center>
+            <center>
+                <div>
+                    <button id="LPBtnCheckUserNamePass">התחבר</button>
+                </div>
+                <div>
+                    <button id="LPBtnAccessAsGuest" class="guest1">היכנס כאורח</button>   <button id="LPBtnGoToRegisterPage" class="guest1">הירשם</button>
+                </div>
+            </center>
+            
+        </div>
+    </div>
+
+    <div id="wait">
+        <img src="images/gears.gif" />
+    </div>
+
+    <script src="cordova.js"></script><!--include cordova-->
+    <script src="scripts/Globals.js"></script><!--שיוך הגדרות גלובליות-->
+    <script src="scripts/LoginPage.js"></script><!--שיוך קובץ javascript-->
+    <link href="css/Globals.css" rel="stylesheet" /><!--שיך עיצוב גלובלי-->
+</body>
+</html>

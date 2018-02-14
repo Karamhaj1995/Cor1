@@ -1,0 +1,206 @@
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Assistant', sans-serif;
+}
+
+html {
+    height: 100%;
+    margin-bottom: 0px;
+    font-family: 'Assistant', sans-serif;
+}
+
+body {
+    text-align: right;
+    height: 100%;
+    margin-bottom: 0px;
+    font-family: Arial;
+    direction: rtl;
+    font-family: 'Assistant', sans-serif;
+    background-color: #0f405e;
+    color: #fbf7f1;
+}
+
+.profilepicture {
+    background-image: url(../images/add_pic.png);
+    position: relative;
+    width: 50%;
+    border-radius: 50%;
+    right: 25%;
+    top: 2.5%;
+}
+
+.profilePictureTXT {
+    position: relative;
+    width: 50%;
+    border-radius: 50%;
+    right: 25%;
+    top: 2.5%;
+}
+
+    .profilePictureTXT p {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+.deatilsToEdit {
+    border: 3px solid darkorange;
+    width: 90%;
+    height: 75%;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    border-radius: 20px;
+}
+
+#accountSettings {
+    width: 30%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    border-radius: 10px;
+    background-color: darkorange;
+    text-align: center;
+    padding: 3%;
+    border: 2px solid white;
+}
+
+#applicationSettings {
+    width: 30%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border-radius: 10px;
+    background-color: darkorange;
+    text-align: center;
+    padding: 3%;
+    border: 2px solid white;
+}
+
+.accountSettings input {
+    padding: 5% 0;
+    border: 2px solid #f68d22;
+    border-radius: 15px;
+    margin-top: 5%;
+    font-size: 16px;
+    width: 90%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+#profileImage {
+    width: 50%;
+    right: 25%;
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+#saveBTN {
+    background-color: darkorange;
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+    position: fixed;
+    padding: 2%;
+    border-radius: 20px;
+    left: 10%;
+    bottom: 10%;
+}
+
+.messages {
+    display: none;
+    position: absolute;
+    top: 15%;
+    width: 75%;
+    right: 12.5%;
+    background-color: orange;
+    text-align: center;
+    font-size: 180%;
+    border-radius: 15px;
+    z-index: 2004;
+}
+
+    .messages img {
+        width: 10%;
+        display: block;
+        margin-right: 1%;
+        margin-top: 1%;
+    }
+
+.radius {
+    border: 3px solid white;
+    margin-top: 5%;
+    width: 80%;
+    margin-right: 10%;
+    display: grid;
+    border-radius: 10px;
+}
+
+    .radius p {
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .radius select {
+        width: 80%;
+        margin-right: 10%;
+        padding: 5%;
+        border-radius: 10px;
+        margin-bottom: 2%;
+    }
+
+.notifactions {
+    border: 3px solid white;
+    margin-top: 5%;
+    width: 80%;
+    margin-right: 10%;
+    display: grid;
+    border-radius: 10px;
+}
+
+    .notifactions p {
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .notifactions select {
+        width: 80%;
+        margin-right: 10%;
+        padding: 5%;
+        border-radius: 10px;
+        margin-bottom: 2%;
+    }
+
+.mapInterval {
+    border: 3px solid white;
+    margin-top: 5%;
+    width: 80%;
+    margin-right: 10%;
+    display: grid;
+    border-radius: 10px;
+}
+
+    .mapInterval p {
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .mapInterval select {
+        width: 80%;
+        margin-right: 10%;
+        padding: 5%;
+        border-radius: 10px;
+        margin-bottom: 2%;
+    }

@@ -1,0 +1,171 @@
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Assistant', sans-serif;
+}
+
+html {
+    height: 100%;
+    margin-bottom: 0px;
+    font-family: 'Assistant', sans-serif;
+}
+
+body {
+    text-align: right;
+    height: 100%;
+    margin-bottom: 0px;
+    font-family: Arial;
+    direction: rtl;
+    font-family: 'Assistant', sans-serif;
+    background-color: #fbf7f1;
+    color:#fbf7f1;
+}
+
+
+div.topbar {
+    position: fixed;
+    top: 5px;
+    width: 100%;
+    z-index: 1002;
+    font-family: 'Assistant', sans-serif;
+}
+
+
+.newspage {
+    text-align: center;
+    background-color: #fbf7f1;
+    font-family: 'Assistant', sans-serif;
+}
+
+    .newspage h2 {
+        color: #0f405e;
+        font-weight: bold;
+        font-size: 42px;
+        font-family: 'Assistant', sans-serif;
+        display: inline-block;
+    }
+
+        .newspage h2 span {
+            color: #f5821f;
+            font-weight: 100;
+            line-height: 0.5;
+            font-family: 'Assistant', sans-serif;
+        }
+
+
+a.one {
+    display: inline-grid;
+    width: 90%;
+    background-color: #f5821f;
+    background-image: url(../images/one.jpg);
+    background-repeat: no-repeat;
+    background-size: 33%;
+    background-position: right;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 2%;
+    color: white;
+    height: 70px;
+    font-family: 'Assistant', sans-serif;
+}
+
+    a.one span {
+        font-size: 16px;
+        font-family: 'Assistant', sans-serif;
+    }
+
+    a.one p {
+        text-align: right;
+        margin-right: 33%;
+        width: 65%;
+    }
+
+a.two {
+    display: inline-grid;
+    width: 90%;
+    background-color: #0f405e;
+    background-image: url(../images/five.png);
+    background-repeat: no-repeat;
+    background-size: 33%;
+    background-position: right;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 2%;
+    color: white;
+    height: 70px;
+    font-family: 'Assistant', sans-serif;
+}
+
+    a.two span {
+        font-size: 16px;
+        font-family: 'Assistant', sans-serif;
+    }
+
+    a.two p {
+        text-align: right;
+        margin-right: 33%;
+        width: 65%;
+    }
+
+a.three {
+    display: inline-grid;
+    width: 90%;
+    background-color: #f5821f;
+    background-image: url(../images/two.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    border-radius: 15px;
+    background-position-x: 112%;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 2%;
+    color: white;
+    height: 70px;
+    font-family: 'Assistant', sans-serif;
+}
+
+    a.three span {
+        font-size: 16px;
+        font-family: 'Assistant', sans-serif;
+    }
+
+    a.three p {
+        text-align: right;
+        margin-right: 35%;
+        width: 70%;
+    }
+
+
+    a.four {
+    display: inline-grid;
+    width: 90%;
+    background-color: #0f405e;
+    background-image: url(../images/four.jpg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    border-radius: 15px;
+    background-position-x: 112%;
+    text-decoration: none;
+    margin-top: 2%;
+    color: white;
+    height: 70px;
+    font-family: 'Assistant', sans-serif;
+}
+
+    a.four span {
+        font-size: 16px;
+        font-family: 'Assistant', sans-serif;
+    }
+
+    a.four p {
+        text-align: right;
+        margin-right: 35%;
+        width: 70%;
+    }
+

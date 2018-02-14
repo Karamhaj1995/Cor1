@@ -1,0 +1,116 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    height: 100%;
+    margin-bottom: 0px;
+    background-color: #0f405e;
+}
+
+body {
+    text-align: left;
+    height: 100%;
+    margin-bottom: 0px;
+    font-family: Arial;
+    direction: rtl;
+}
+
+div.sign {
+    text-align: right;
+    background-color: #0f405e;
+    height: 100vh;
+}
+
+#addProfilePicture {
+    height: 25%;
+    width: 50%;
+    margin-top: 10%;
+    margin-right: 25%;
+    border-radius: 50%;
+}
+
+div.deatils input {
+    border: 2px solid #f68d22;
+    border-radius: 10px;
+    margin-top: 4%;
+    font-size: 18px;
+    margin-right: 10%;
+    width: 80%;
+    text-align: center;
+    height: 8%;
+}
+
+#RegisterBTN {
+    height: 7.5%;
+    width: 50%;
+    font-size: 18px;
+    background-color: #f68d22;
+    color: white;
+    border-radius: 10px;
+    margin-top: 4%;
+    margin-right: 25%;
+}
+
+#wait {
+    display: none;
+    top: 35%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+    #wait img {
+        position:fixed;
+        right:20%;    
+    }
+
+.messages {
+    display: none;
+    position: absolute;
+    top: 15%;
+    width: 75%;
+    right: 12.5%;
+    background-color: orange;
+    text-align: center;
+    font-size: 180%;
+    border-radius: 15px;
+    z-index: 2004;
+}
+
+.LoginWays {
+    background-color: orange;
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    width: 80%;
+    right: 10%;
+    color: white;
+    border-radius: 20px;
+    display:none;
+}
+
+#Loginwithfacebook {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.backButton {
+    width: 13%;
+    right: 0;
+    display: block;
+}

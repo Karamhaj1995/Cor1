@@ -1,0 +1,369 @@
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html {
+    height: 100%;
+    margin-bottom: 0;
+}
+
+body {
+    text-align: right;
+    height: 100%;
+    margin-bottom: 0;
+    font-family: Rubik;
+    direction: rtl;
+}
+
+.main {
+    position: relative;
+}
+
+.bar {
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+    .bar img {
+        width: 100%;
+        bottom: 0;
+        position: fixed;
+    }
+
+    .bar .news {
+        position: fixed;
+        left: 5%;
+        bottom: 2%;
+        color: #f68d22;
+        text-decoration: none;
+        background-image: url(../images/news.png);
+        display: inline-block;
+        padding-top: 15%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .bar .mail {
+        position: fixed;
+        right: 5%;
+        bottom: 2%;
+        color: #f68d22;
+        text-decoration: none;
+        background-image: url(../images/mail.png);
+        display: inline-block;
+        padding-top: 15%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .bar .report {
+        position: fixed;
+        right: 36.5%;
+        bottom: 2%;
+        z-index: 1001;
+        display: inline-block;
+        width: 25%;
+    }
+
+.topbar {
+    position: fixed;
+    top: 5px;
+    width: 100%;
+    z-index: 1002;
+}
+
+    .topbar a {
+        display: inline-block;
+        position: fixed;
+        right: 5%;
+        top: 3%;
+        width: 20%;
+    }
+
+#profileImage {
+    position: fixed;
+    left: 3%;
+    background-color: darkorange;
+    height: 18%;
+    max-width: 30%;
+    max-height: 20%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: 8000;
+}
+
+#loadingImage {
+    position: fixed;
+    left: 3%;
+    background-color: darkorange;
+    height: 18%;
+    max-width: 30%;
+    max-height: 20%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: 8001;
+}
+
+.dlg {
+        width: 80%;
+        height: 80%;
+        background-color: #f5821f;
+        z-index: 2000;
+        position: fixed;
+        top: 7%;
+        right: 9%;
+        opacity: 0.9;
+        text-align: center;
+        display: none;
+        border: none;
+        border-radius: 10px;
+    }
+
+#alertBtn {
+        position: fixed;
+        right: 36.5%;
+        bottom: 2%;
+        z-index: 1001;
+        display: inline-block;
+        width: 25%;
+}
+
+#harazdDateTimeTXT {
+    border: none;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    width: 49%;
+    margin-top: 20%;
+    height: 8%;
+    top: 30%;
+    right: 0;
+}
+
+#hazardLocationTXT {
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    width: 49%;
+    position: absolute;
+    margin-top: 20%;
+    height: 8%;
+    top: 30%;
+    left: 0;
+}
+
+#streetSelector {
+    border: none;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20%;
+    top: 40%;
+    right: 0;
+    height: 8%;
+}
+
+#hazardImage {
+    margin-top:5%;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+input[type=button] {
+    height: 8%;
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    font-size: 100%;
+    background-color: #0f405e;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    bottom: 0;
+    right: 30%;
+}
+
+.backButton {
+    width: 13%;
+    right: 0;
+    display: block;
+}
+
+textarea {
+    position: absolute;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    margin-top: 25%;
+    height: 15%;
+    right: 0;
+    top: 50%;
+}
+
+#hazardID {
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}
+
+#hazardUploader {
+    position: absolute;
+    left: 1%;
+    top: 5%;
+}
+
+.hazardInfo {
+    width: 80%;
+    height: 80%;
+    background-color: #f5821f;
+    z-index: 2000;
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    opacity: 0.9;
+    text-align: center;
+    display: none;
+    border: none;
+    border-radius: 10px;
+}
+
+#thumbsUp {
+    background-color: white;
+    width: 35%;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    border-radius: 10px;
+}
+
+.messages {
+    display:none;
+    position: absolute;
+    top: 15%;
+    width: 75%;
+    right: 12.5%;
+    background-color: orange;
+    text-align: center;
+    font-size: 180%;
+    border-radius: 15px;
+    z-index:2004;
+}
+
+    .messages img {
+        width: 10%;
+        display: block;
+        margin-right: 1%;
+        margin-top: 1%;
+    }
+
+#showMe {
+    position: fixed;
+    left: 3.5%;
+    bottom: 15%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: #212121;
+    padding: 2%;
+}
+
+#info {
+    position: fixed;
+    right: 3.5%;
+    bottom: 15%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: #212121;
+    padding: 2%;
+}
+
+.search {
+    display: none;
+    position: fixed;
+    width: 80%;
+    height: 80%;
+    background-color: #f68d22;
+    top: 10%;
+    right: 10%;
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+.status {
+    display:none;
+    position: fixed;
+    top: 3%;
+    right: 35%;
+    background-color: #f68d22;
+    BORDER-RADIUS: 20PX;
+    width: 30%;
+    height: 6%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.fullImage {
+    display:none;
+    position:fixed;
+    top:0;
+    right :0;
+    z-index:2000;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    text-align: center; /* horizontal center */
+    vertical-align: middle; /* vertical center */
+}
+
+.fullImageInBox {
+    vertical-align: middle; /* also needed to adjust better inside table-cell */
+    max-height: 100%; /* height can be maximum of container, maintains ratio */
+    max-width: 100%; /* width can be maximum of container, maintains ratio */
+    margin-top:35%;
+}
+
+.ROR {
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    width: 15%;
+}
+
+.ROL {
+    bottom: 0;
+    position: fixed;
+    right: 15%;
+    width: 15%;
+}
+
+.editPicture {
+    vertical-align: middle; /* also needed to adjust better inside table-cell */
+    max-height: 100%; /* height can be maximum of container, maintains ratio */
+    max-width: 100%; /* width can be maximum of container, maintains ratio */
+    margin-top: 35%;
+    z-index:2003;
+}
+
+.OK {
+    width: 15%;
+    position: fixed;
+    left: 1%;
+    bottom: 1%;
+}
