@@ -124,7 +124,7 @@ public class WebService : System.Web.Services.WebService
         JavaScriptSerializer json = new JavaScriptSerializer();
         command.CommandText = "INSERT INTO Hazards(Hazard_DateTime ,Street_ID ,Hazard_Image ,Descrption ,Hazard_Lat ,Hazard_Long, Hazard_Uploader) VALUES(@dt, @adr, @img, @des, @lat, @lng, @uname)";
         command.Parameters.Add(new SqlParameter("@dt", dt));
-        command.Parameters.Add(new SqlParameter("@adr", strid + 1));
+        command.Parameters.Add(new SqlParameter("@adr", strid + 12));
         command.Parameters.Add(new SqlParameter("@img", img));
         command.Parameters.Add(new SqlParameter("@des", des));
         command.Parameters.Add(new SqlParameter("@lat", lat));
